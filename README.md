@@ -12,13 +12,13 @@ S06 - Diagramas de Atividades, Pacotes e Implantação - locadora
 
 ### Requeriments
 python 3.8 <br />
-pipenv, version 2020.11.15<br />
+pipenv, version 2020.11.15 <br />
 
 ### Start
->>> pipenv install
->>> pipenv shell
->>> pip install -r requeriments.txt
->>> cd /LProject
->>> python manage.py makemigrations
->>> python manage.py migrate
->>> python manage.py runserver
+>>> pipenv install <br />
+>>> pipenv shell <br />
+>>> pip install -r requeriments.txt <br />
+>>> cd /LProject <br />
+>>> python manage.py makemigrations <br />
+>>> python manage.py migrate <br />
+>>> python manage.py runserver <br />
