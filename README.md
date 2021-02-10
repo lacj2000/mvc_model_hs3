@@ -7,7 +7,7 @@ Periodo do Curso: 4 <br/>
 Disciplina: Engenharia de Software 3
 
 ### Atividade
-s6 p1 - item 1 locadora
+S06 - Diagramas de Atividades, Pacotes e Implantação - locadora
 
 
 ### Requeriments
