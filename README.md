@@ -6,7 +6,11 @@ Curso: ADS <br/>
 Periodo do Curso: 4 <br/>
 Disciplina: Engenharia de Software 3
 
+### Atividade
+s6 p1 - item 1 locadora
+
 
 ### Requeriments
-pipenv
+python 3.8
+pipenv 
 
