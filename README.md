@@ -11,6 +11,6 @@ S06 - Diagramas de Atividades, Pacotes e Implantação - locadora
 
 
 ### Requeriments
-python 3.8
-pipenv 
+python 3.8 <br />
+pipenv, version 2020.11.15<br />
 
