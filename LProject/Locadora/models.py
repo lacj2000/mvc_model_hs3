@@ -3,9 +3,9 @@ from django.contrib.auth.models import User
 
 
 class Titulo(models.Model):
-    nome = models.CharField()
-    ano = models.IntergerField()
-    studio = models.CharField()
+    nome = models.CharField(max_length=128)
+    ano = models.IntegerField()
+    studio = models.CharField(max_length=128)
     preco = models.FloatField()
 
 class Fita(models.Model):
@@ -14,8 +14,8 @@ class Fita(models.Model):
 
 
 class Locacao(models.Model):
-    data_locacao = models.DataTimeField(auto_now_add=True, blank=True)
-    data_entrega =  models.DataTimeField()
-    fitas = models.ManyToManyFields(Fita, related_name='fitas', on_delete=models.CASCADE)
+    data_locacao = models.DateTimeField(auto_now_add=True, blank=True)
+    data_entrega =  models.DateTimeField()
+    fitas = models.ManyToManyField(Fita)
     socio = models.ForeignKey(User, related_name='locacoes',on_delete=models.CASCADE)
     valor_total =  models.FloatField()
